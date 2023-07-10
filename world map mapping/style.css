@@ -1,0 +1,192 @@
+body{
+  background-image:url('image.jpg') ;
+  background-size: 110% 190%;
+  background-repeat: no-repeat;
+
+
+
+
+}
+#map {
+  width: 800px;
+  height: 400px;
+  background-image: url(world-map.png);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.continent {
+  position: absolute;
+  cursor: pointer;
+}
+
+.africa {
+  top: 240px;
+  left: 570px;
+  width: 230px;
+  height: 350px;
+  transition: 1.2 scale;
+
+}
+
+
+.asia {
+  top: -14px;
+  left: 625px;
+  width: 600px;
+  height: 550px;
+}
+
+.europe {
+  top: 50px;
+  left: 509px;
+  width: 350px;
+  height: 230px;
+}
+
+.north-america {
+  top: 90px;
+  left: 50px;
+  width: 330px;
+  height: 270px;
+}
+
+.oceania {
+  top: 490px;
+  left: 990px;
+  width: 220px;
+  height: 180px;
+}
+
+.south-america {
+  top: 340px;
+  left: 230px;
+  width: 320px;
+  height: 350px;
+}
+
+.antarctica {
+  top: 310px;
+  left: 380px;
+  width: 120px;
+  height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+/**/
+header {
+      background-image: url('123.jpg');
+      padding: 20px;
+      width: 100%;
+      margin-left: -15px;
+      text-align: center;
+      margin-top: -10px; 
+      border-radius:10px ;
+    }
+    
+  
+    /* CSS styles for the navigation */
+    nav {
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    
+    /* CSS styles for the search bar */
+    #search-bar {
+/*      background-color: darkred;*/
+      text-align: center;
+      border: 1px solid transparent;
+      margin-top:-20px;
+      background-color: transparent;
+      border-radius: 10px;
+    }
+    #search-bar input[type="text"]{
+      border: none;
+      
+      outline: none;
+      padding: 5px;
+      border-radius: 20px;
+    }
+
+    #search-bar button{
+      border: none;
+      background-color: lightskyblue;
+      color: blue;
+      padding: 8px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      margin-left: -5px;
+    }
+
+
+    
+    /* CSS styles for the about section */
+    #about {
+      background-color: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* CSS styles for the layout */
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+    
+    }
+    
+    .container .home-icon {
+      flex: 1;
+      margin-top: -45px;
+      text-align: left;
+      cursor: pointer;
+      border-width: 10px;  
+      margin-left: 10px;
+    }
+    
+    .container .about {
+      flex: 1;
+     color: white;
+     text-decoration-color:white ;
+      margin-top: -50px;
+      text-align: right;
+    }
+    
+    /* CSS styles for the content */
+    #content {
+      background-color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* CSS styles for the list */
+    #list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    
+    #list li {
+      margin: 10px;
+    }
